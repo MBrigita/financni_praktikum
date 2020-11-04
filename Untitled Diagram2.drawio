@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T19:45:44.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="v47y9qdvMQr6gt2-48c7" version="13.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T19:48:36.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Za4bL8m_sz4U2E-R-ixm" version="13.8.9" type="github">
   <diagram id="hZCgLGs1MevBmMHXEo8t" name="Page-1">
     <mxGraphModel dx="1416" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,16 +113,22 @@
         <mxCell id="k0jWhnYddSj0rqFJDyqg-111" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="k0jWhnYddSj0rqFJDyqg-98" source="k0jWhnYddSj0rqFJDyqg-109" target="k0jWhnYddSj0rqFJDyqg-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="k0jWhnYddSj0rqFJDyqg-119" value="updates all departmental records" style="whiteSpace=wrap;html=1;rounded=0;verticalAlign=top;labelBackgroundColor=#ffffff;sketch=0;" vertex="1" parent="k0jWhnYddSj0rqFJDyqg-98">
+          <mxGeometry x="625" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="k0jWhnYddSj0rqFJDyqg-99" value="Coordination Unit" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="k0jWhnYddSj0rqFJDyqg-97">
           <mxGeometry y="140" width="1300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="k0jWhnYddSj0rqFJDyqg-112" value="conduct a QA check on the minutes" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="k0jWhnYddSj0rqFJDyqg-99">
           <mxGeometry x="510" y="20" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k0jWhnYddSj0rqFJDyqg-115" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;rounded=0;sketch=0;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" vertex="1" parent="k0jWhnYddSj0rqFJDyqg-99">
+        <mxCell id="k0jWhnYddSj0rqFJDyqg-115" value="send minutes" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;rounded=0;sketch=0;" vertex="1" parent="k0jWhnYddSj0rqFJDyqg-99">
           <mxGeometry x="660" y="35" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k0jWhnYddSj0rqFJDyqg-113" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="k0jWhnYddSj0rqFJDyqg-97" source="k0jWhnYddSj0rqFJDyqg-110" target="k0jWhnYddSj0rqFJDyqg-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k0jWhnYddSj0rqFJDyqg-120" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="k0jWhnYddSj0rqFJDyqg-97" source="k0jWhnYddSj0rqFJDyqg-115" target="k0jWhnYddSj0rqFJDyqg-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k0jWhnYddSj0rqFJDyqg-100" value="Committee Members" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
@@ -133,6 +139,9 @@
         </mxCell>
         <mxCell id="k0jWhnYddSj0rqFJDyqg-105" value="after a week" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#5C5C5C;" vertex="1" parent="k0jWhnYddSj0rqFJDyqg-100">
           <mxGeometry x="130" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k0jWhnYddSj0rqFJDyqg-117" value="recive minutes" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;outline=standard;symbol=message;rounded=0;sketch=0;" vertex="1" parent="k0jWhnYddSj0rqFJDyqg-100">
+          <mxGeometry x="660" y="15" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k0jWhnYddSj0rqFJDyqg-108" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="1" source="k0jWhnYddSj0rqFJDyqg-103" target="k0jWhnYddSj0rqFJDyqg-109">
           <mxGeometry relative="1" as="geometry">
@@ -149,6 +158,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="680" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="k0jWhnYddSj0rqFJDyqg-118" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="1" source="k0jWhnYddSj0rqFJDyqg-115" target="k0jWhnYddSj0rqFJDyqg-117">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
